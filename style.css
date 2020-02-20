@@ -9,6 +9,7 @@ header {
     padding: 150px;
     background:url(https://www.wf3.fr/wp-content/uploads/2018/09/home-hero.jpg);
     background-size:cover;
+    background-position: 20px;
 }
 nav {
     display:flex;
