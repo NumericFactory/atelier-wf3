@@ -19,12 +19,13 @@
 <body>
 	<!-- Dans nos liens nous allons utiliser les ancres pour simplifier la navigation -->
 	<nav>
-		<a href="#">Home</a>
-		<a href="#">A propos</a>
-		<a href="#">Définitions</a>
+		<a href="#home">Home</a>
+		<a href="#about">A propos</a>
+		<a href="#definitions">Définitions</a>
 	</nav>
+
 	<!-- HEADER : Dans ce cas, c'est l'entête de notre site, va le plus souvent contenir le logo et la navigation -->
-	<header>
+	<header id="home">
 		<!-- Le titre le plus important de notre page, c'est le texte que nous voulons le plus mettre en avant (le plus souvent le nom du site) -->
 		<h1>Atelier : créer ma premiere page HTML</h1>
 		<p>Avec HTML et CSS nous pouvons créer des pages web</p>
@@ -33,9 +34,8 @@
 	<!-- MAIN : Dans ce cas c'est le corps de notre site, il va contenir toute les infos qui change d'une page à l'autre -->
 	<main>
 
-		<section>
+		<section id="about">
 			<h2>Ce que nous allons voir</h2>
-
 			<ul>
 				<li>
 					<!-- HTML -->
@@ -46,46 +46,46 @@
 					<img src="https://atelier-wf3.netlify.com/img/css.jpg">
 				</li>
 				<li>
-					<!--	Le référencement -->
+					<!--	OPEN GRAPH -->
 					<img src="https://atelier-wf3.netlify.com/img/opengraph.png">
 				</li>
 			</ul>
-			<section>
+		</section>
 
-				<section>
-					<h2>Les définitions</h2>
-					<h3>HTML</h3>
-					<p>
-						Le HTML est un langage qui a été créé en 1991. Les sigles « HTML » sont l’abréviation de «
-						HyperText Markup Language » ou « langage de balisage hypertexte » en français.Le HTML est donc
-						un langage de balisage, c’est-à-dire un langage qui va nous permettre de définir les différents
-						contenus d’une page, mais aussi sa structure.
-					</p>
+		<section id="definitions">
+			<h2>Les définitions</h2>
+			<h3>HTML</h3>
+			<p>
+				Le HTML est un langage qui a été créé en 1991. Les sigles « HTML » sont l’abréviation de «
+				HyperText Markup Language » ou « langage de balisage hypertexte » en français.Le HTML est donc
+				un langage de balisage, c’est-à-dire un langage qui va nous permettre de définir les différents
+				contenus d’une page, mais aussi sa structure.
+			</p>
 
-					<h3>CSS</h3>
-					<p>
-						Le CSS a été créé en 1996, soit 5 ans après le HTML. Les sigles « CSS » sont l’abréviation de «
-						Cascading StyleSheets » ou « feuilles de styles en cascade » en français. Le HTML sert à définir
-						les différents éléments d’une page, à leur donner du sens. Le CSS, lui, va servir à mettre en
-						forme les différents contenus définis par le HTML en leur appliquant des styles.
-					</p>
+			<h3>CSS</h3>
+			<p>
+				Le CSS a été créé en 1996, soit 5 ans après le HTML. Les sigles « CSS » sont l’abréviation de «
+				Cascading StyleSheets » ou « feuilles de styles en cascade » en français. Le HTML sert à définir
+				les différents éléments d’une page, à leur donner du sens. Le CSS, lui, va servir à mettre en
+				forme les différents contenus définis par le HTML en leur appliquant des styles.
+			</p>
 
-					<h3>OPEN GRAPH</h3>
-					<p>
-						Plus concrètement, le protocole Open Graph est un ensemble de balises qui permet à un webmaster
-						de donner aux principaux réseaux sociaux (Facebook, Google +, Twitter, Linked in...) des
-						informations précises sur ses pages. Ces informations permettront aux réseaux sociaux d'afficher
-						convenablement un lien sur une ces pages qui aurait été partagé par leur utilisateurs.
-					</p>
-				</section>
+			<h3>OPEN GRAPH</h3>
+			<p>
+				Plus concrètement, le protocole Open Graph est un ensemble de balises qui permet à un webmaster
+				de donner aux principaux réseaux sociaux (Facebook, Google +, Twitter, Linked in...) des
+				informations précises sur ses pages. Ces informations permettront aux réseaux sociaux d'afficher
+				convenablement un lien sur une ces pages qui aurait été partagé par leur utilisateurs.
+			</p>
+		</section>
 
 	</main>
 
 	<!-- FOOTER : Dans ce cas, c'est le pied de page de notre site, il va contenir des infos comme le copyright, un plan du site, ou bien toute info supplémentaire sur le site qui n'est pas essentielle de prime abord -->
 	<footer>
-		<a href="">Formation Développeur web</a>
-		<a href="">Formation Référent Digital</a>
-		<a href="">Formation réseau et sécurité</a>
+		<a href="#">Formation Développeur web</a>
+		<a href="#">Formation Référent Digital</a>
+		<a href="#">Formation réseau et sécurité</a>
 	</footer>
 
 </body>
