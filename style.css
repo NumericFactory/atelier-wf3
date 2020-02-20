@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 header {
-    color: #ddd;
+    color: #fff;
     text-align:center;
     padding: 150px;
     background:url(https://www.wf3.fr/wp-content/uploads/2018/09/home-hero.jpg);
@@ -18,7 +18,7 @@ nav {
     color: white;
     position:fixed;
     top:0;
-    width:100%
+    width:100%;
 }
 nav a {
     color: white;
@@ -29,12 +29,15 @@ main {
     margin: auto;
 }
 section {
-    padding:50px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin: 15px 0;
+    border-radius: 10px;
 }
 section h2 {
     text-align:center;
     text-transform: uppercase;
-    opacity:.7;
+    color:mediumblue;
 }
 ul {
     display:flex;
@@ -47,7 +50,6 @@ li {
 li img {
     width:200px;
 }
-
 footer {
     display:flex;
     justify-content:space-around;
